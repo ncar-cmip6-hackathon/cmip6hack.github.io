@@ -10,13 +10,11 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/website
-
     steps:
       - checkout
 
       - attach_workspace:
-        at: ~/website
+        at: /tmp/workspace
 
       # Download and cache dependencies
       - restore_cache:
@@ -39,10 +37,12 @@ jobs:
         root: .
         paths: dist
 
+      - store_artifacts:
+        path: dist/
+
   deploy-job:
     docker:
       - image: circleci/node:10.8.0
-    working_directory: ~/website
     steps:
       - restore_cache:
           keys:
