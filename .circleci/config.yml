@@ -3,7 +3,7 @@ jobs:
   build-job:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10.8.0
+      - image: circleci/node:10.11.0
 
     steps:
       - checkout
@@ -15,11 +15,15 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: yarn install
-      - run: yarn run build
+      - run:
+          name: Install modules
+          command: yarn install
+      - run:
+          name: Build the website
+          command: yarn run build
 
       - save_cache:
-          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          key: v1-dependencies-{{ checksum "package.json" }}
           paths:
             - ./node_modules
 
@@ -33,7 +37,7 @@ jobs:
 
   deploy-job:
     docker:
-      - image: circleci/node:10.8.0
+      - image: circleci/node:10.11.0
 
     steps:
       - checkout
