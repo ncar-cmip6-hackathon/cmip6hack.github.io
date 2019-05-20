@@ -52,6 +52,13 @@
               <h2 class="title text-center">Sponsors</h2>
               <h5 class="description">
                 NCAR CMIP6 Hackathon is made possible by the following sponsors:
+                <br />
+                <img
+                  :src="require('../assets/img/sponsors.png')"
+                  alt="Sponsors"
+                  height="450"
+                  width="550"
+                />
               </h5>
             </div>
           </div>
