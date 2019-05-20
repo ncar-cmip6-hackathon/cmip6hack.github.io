@@ -10,11 +10,12 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
+    working_directory: ~/website
     steps:
       - checkout
 
       - attach_workspace:
-        at: /tmp/workspace
+        at: ~/website
 
       # Download and cache dependencies
       - restore_cache:
@@ -33,12 +34,8 @@ jobs:
             - package.json
           key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
 
-      - persist_to_workspace:
-        root: .
-        paths: dist
-
       - store_artifacts:
-        path: dist/
+        path: ~/website/dist
 
   deploy-job:
     docker:
