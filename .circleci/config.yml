@@ -45,6 +45,10 @@ jobs:
       - attach_workspace:
           # Must be absolute path or relative path from working_directory
           at: /tmp/workspace
+        # Add deployment key fingerprint for CircleCI to use for a push
+      - add_ssh_keys:
+          fingerprints:
+            - "2a:18:a6:f2:24:b2:97:d6:8b:11:74:ef:04:87:88:ec"
 
       # Copying over built website to the live site
       - run:
@@ -58,6 +62,15 @@ jobs:
             rm -rf ./*
             cp -r ../dist/* ./
             touch ./index.html
+
+      - run:
+          name: Commit results and push to master
+          command: |
+            git config --global user.email "abanihi@ucar.edu"
+            git config --global user.name "Xdev Bot"
+            git add -A
+            git commit -m "Automated web deploy"
+            git push -f origin master:master
 
 workflows:
   version: 2
