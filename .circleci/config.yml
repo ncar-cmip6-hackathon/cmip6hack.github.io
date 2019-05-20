@@ -26,14 +26,7 @@ jobs:
       - save_cache:
           key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
           paths:
-            - node_modules
-            - dist
-            - package.json
-
-      - persist_to_workspace:
-        root: .
-        paths:
-          - node_modules/
+            - ./node_modules
 
       - store_artifacts:
         path: dist/
@@ -43,10 +36,6 @@ jobs:
       - image: circleci/node:10.8.0
     steps:
       - checkout
-
-      - attach_workspace:
-        # Must be absolute path or relative path from working_directory
-        at: /tmp/workspace
 
       - restore_cache:
           keys:
