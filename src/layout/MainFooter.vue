@@ -5,15 +5,6 @@
     :data-background-color="backgroundColor"
   >
     <div class="container">
-      <nav>
-        <ul>
-          <li>
-            <a href="https://github.com/cmip6hack">
-              Earth System Informatics Team
-            </a>
-          </li>
-        </ul>
-      </nav>
       <div class="copyright">
         &copy; {{ year }}, made with <md-icon>favorite</md-icon> by
         <a href="https://github.com/cmip6hack" target="_blank">
