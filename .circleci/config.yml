@@ -5,11 +5,6 @@ jobs:
       # specify the version you desire here
       - image: circleci/node:10.8.0
 
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
-
     steps:
       - checkout
 
@@ -31,21 +26,33 @@ jobs:
       - store_artifacts:
           path: dist/
 
+      - persist_to_workspace:
+        root: .
+        paths:
+          - dist/
+
   deploy-job:
     docker:
       - image: circleci/node:10.8.0
     steps:
       - checkout
 
-      - restore_cache:
-          keys:
-            - v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+      - attach_workspace:
+        # Must be absolute path or relative path from working_directory
+        at: /tmp/workspace
+
+        # Copying over built website to the live site
       - run:
-          name: show directory
-          command: pwd
+        name: Copy over built site files
+        command: rm -rf dist && cp -r /tmp/workspace/dist ../dist
+
       - run:
-          name: look in directory
-          command: ls -ltr
+        name: Change to master branch and replace w/ new site
+        command: |
+          git checkout master
+          rm -rf ./*
+          cp -r ../dist/* ./
+          touch ./index.html
 
 workflows:
   version: 2
