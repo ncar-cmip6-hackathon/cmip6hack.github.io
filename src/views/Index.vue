@@ -11,8 +11,8 @@
               <br />Venue: Boulder, CO, USA
             </h2>
             <h3>Applications are now open!</h3>
-            <md-button href class="md-success md-lg" target="_blank"
-              >Register Here</md-button
+            <md-button href class="md-success md-lg md-round" target="_blank"
+              ><md-icon>how_to_reg</md-icon>Register Here</md-button
             >
           </div>
         </div>
@@ -52,12 +52,13 @@
               <h2 class="title text-center">Sponsors</h2>
               <h5 class="description">
                 NCAR CMIP6 Hackathon is made possible by the following sponsors:
-                <br />
+                <br /><br />
                 <img
-                  :src="require('../assets/img/sponsors.png')"
+                  :src="sponsorsImg"
                   alt="Sponsors"
-                  height="450"
-                  width="550"
+                  height="500"
+                  width="700"
+                  class="img-raised rounded img-fluid"
                 />
               </h5>
             </div>
@@ -75,6 +76,11 @@ export default {
     header: {
       type: String,
       default: require("@/assets/img/flow-dynamics.png")
+    },
+
+    sponsorsImg: {
+      type: String,
+      default: require("@/assets/img/sponsors.png")
     }
   },
   data() {
