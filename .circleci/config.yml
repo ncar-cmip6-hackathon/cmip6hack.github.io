@@ -1,0 +1,79 @@
+version: 2.1
+jobs:
+  build-job:
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:10.11.0
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run:
+          name: Install modules
+          command: yarn install
+      - run:
+          name: Build the website
+          command: yarn run build
+
+      - save_cache:
+          key: v1-dependencies-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+
+      - store_artifacts:
+          path: dist/
+
+      - persist_to_workspace:
+          root: .
+          paths:
+            - dist/
+
+  deploy-job:
+    docker:
+      - image: circleci/node:10.11.0
+
+    steps:
+      - checkout
+
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: /tmp/workspace
+
+      # Copying over built website to the live site
+      - run:
+          name: Copy over built site files
+          command: rm -rf dist && cp -r /tmp/workspace/dist ../dist
+
+      - run:
+          name: Change to master branch and replace w/ new site
+          command: |
+            git checkout master
+            rm -rf ./*
+            cp -r ../dist/* ./
+            touch ./index.html
+
+workflows:
+  version: 2
+  default:
+    jobs:
+      - build-job:
+          filters:
+            branches:
+              ignore:
+                - master
+      - deploy-job:
+          requires:
+            - build-job
+          filters:
+            branches:
+              only:
+                - source
+              ignore:
+                - master
