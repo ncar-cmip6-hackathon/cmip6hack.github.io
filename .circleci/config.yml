@@ -27,32 +27,33 @@ jobs:
           path: dist/
 
       - persist_to_workspace:
-        root: .
-        paths:
-          - dist/
+          root: .
+          paths:
+            - dist/
 
   deploy-job:
     docker:
       - image: circleci/node:10.8.0
+
     steps:
       - checkout
 
       - attach_workspace:
-        # Must be absolute path or relative path from working_directory
-        at: /tmp/workspace
+          # Must be absolute path or relative path from working_directory
+          at: /tmp/workspace
 
-        # Copying over built website to the live site
+      # Copying over built website to the live site
       - run:
-        name: Copy over built site files
-        command: rm -rf dist && cp -r /tmp/workspace/dist ../dist
+          name: Copy over built site files
+          command: rm -rf dist && cp -r /tmp/workspace/dist ../dist
 
       - run:
-        name: Change to master branch and replace w/ new site
-        command: |
-          git checkout master
-          rm -rf ./*
-          cp -r ../dist/* ./
-          touch ./index.html
+          name: Change to master branch and replace w/ new site
+          command: |
+            git checkout master
+            rm -rf ./*
+            cp -r ../dist/* ./
+            touch ./index.html
 
 workflows:
   version: 2
