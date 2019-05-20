@@ -63,6 +63,15 @@ jobs:
             cp -r ../dist/* ./
             touch ./index.html
 
+      - run:
+          name: Commit results and push to master
+          command: |
+            git config --global user.email "abanihi@ucar.edu"
+            git config --global user.name "Xdev Bot"
+            git add -A
+            git commit -m "Automated web deploy"
+            git push -f origin master:master
+
 workflows:
   version: 2
   default:
