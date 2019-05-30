@@ -12,7 +12,7 @@
                             LDEO, Palisades, NY
             </h2>
             <h3>Applications are now open!</h3>
-            <md-button href class="md-success md-lg md-round" target="https://forms.gle/CzHh9iedY1wxv9ye8"
+            <md-button href="https://forms.gle/CzHh9iedY1wxv9ye8" class="md-success md-lg md-round" target=_blank
               ><md-icon>how_to_reg</md-icon>Register Here</md-button
             >
           </div>
@@ -31,7 +31,9 @@
                 Centers around the world are currently running their state-of-the-art Earth system models (ESMs) to participate in the 6th phase of the Coupled Model Intercomparison Project (CMIP6), which supports the United Nations Environmental Program’s International Panel on Climate Change 6th Assessment (AR6). This event will explore new paradigms for community-driven analysis and will consist of the primary components: (1) tutorials on cutting-edge analysis tools, (2) peer-learning opportunities, and (3) open-ended project work in a highly collaborative environment.
 
                 <br>
-                The Hackathon will be held concurrently at two locations: the <a href="https://goo.gl/maps/UMQ7fzxSGiKtrKEJ9">NCAR Mesa Lab</a>, in Boulder CO, and the <a href="https://goo.gl/maps/thqWXUsptr4zPCtZ6"><Lamont Doherty Earth Observatory</a>, in Palisades NY.
+                The Hackathon will be held concurrently at two locations: the
+                <a href="https://goo.gl/maps/UMQ7fzxSGiKtrKEJ9">NCAR Mesa Lab</a>, in Boulder CO, and the
+                <a href="https://goo.gl/maps/thqWXUsptr4zPCtZ6">Lamont Doherty Earth Observatory</a>, in Palisades NY.
                 <br>
 
                 Limited funding is available to support travel and lodging, with preference given to early career scientists.
