@@ -12,7 +12,7 @@
                             LDEO, Palisades, NY, US
             </h2>
             <h3>Applications are now open!</h3>
-            <md-button href class="md-success md-lg md-round" target="_blank"
+            <md-button href class="md-success md-lg md-round" target="https://forms.gle/CzHh9iedY1wxv9ye8"
               ><md-icon>how_to_reg</md-icon>Register Here</md-button
             >
           </div>
