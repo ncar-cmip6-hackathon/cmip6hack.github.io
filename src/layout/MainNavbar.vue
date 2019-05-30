@@ -27,12 +27,12 @@
               <!-- Here you can add your items from the section-start of your toolbar -->
             </mobile-menu>
             <md-list>
-              <md-list-item href="/#">
+              <md-list-item href="#/">
                 <i class="material-icons">content_paste</i>
                 <p>Curriculum</p>
               </md-list-item>
 
-              <md-list-item href="#">
+              <md-list-item href="#/team">
                 <i class="material-icons">people</i>
                 <p>Instructors & co-organizers</p>
               </md-list-item>
@@ -76,7 +76,7 @@
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="#/travel">
                             <i class="material-icons">hotel</i>
                             <p>Travel Information</p>
                           </a>
