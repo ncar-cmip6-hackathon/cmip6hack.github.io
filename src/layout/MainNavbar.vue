@@ -64,21 +64,21 @@
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
-                          <a href="#">
+                          <a href="https://forms.gle/CzHh9iedY1wxv9ye8">
                             <i class="material-icons">view_day</i>
                             <p>Registration</p>
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="http://pangeo.io/">
                             <i class="material-icons">calendar_today</i>
-                            <p>Important Dates</p>
+                            <p>Pangeo community</p>
                           </a>
                         </li>
                         <li>
                           <a href="#">
                             <i class="material-icons">hotel</i>
-                            <p>Hotel Information</p>
+                            <p>Travel Information</p>
                           </a>
                         </li>
                       </ul>
