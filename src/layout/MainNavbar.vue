@@ -71,12 +71,12 @@
                         </li>
                         <li>
                           <a href="http://pangeo.io/">
-                            <i class="material-icons">calendar_today</i>
+                            <i class="material-icons">people</i>
                             <p>Pangeo community</p>
                           </a>
                         </li>
                         <li>
-                          <a href="@/views/travel.vue">
+                          <a href="#">
                             <i class="material-icons">hotel</i>
                             <p>Travel Information</p>
                           </a>
