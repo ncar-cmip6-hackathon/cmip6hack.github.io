@@ -8,7 +8,8 @@
           >
             <h2 class="title">
               Dates: Oct. 16 - 18, 2019
-              <br />Venue: Boulder, CO, USA
+              <br />Venues: NCAR, Boulder, CO, USA &
+                            LDEO, Palisades, NY, USA
             </h2>
             <h3>Applications are now open!</h3>
             <md-button href class="md-success md-lg md-round" target="_blank"
