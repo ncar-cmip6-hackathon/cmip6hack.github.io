@@ -76,7 +76,7 @@
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="@/views/travel.vue">
                             <i class="material-icons">hotel</i>
                             <p>Travel Information</p>
                           </a>
