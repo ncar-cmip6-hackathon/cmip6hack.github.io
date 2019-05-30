@@ -8,7 +8,7 @@
           >
             <h2 class="title">
               Dates: Oct. 16 - 18, 2019
-              <br />Venues: NCAR, Boulder, CO, USA &
+              <br />Venues: NCAR, Boulder, CO, USA & <br>
                             LDEO, Palisades, NY, US
             </h2>
             <h3>Applications are now open!</h3>
