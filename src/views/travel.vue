@@ -1,5 +1,7 @@
 <template>
   <div class="wrapper">
+    <parallax class="section page-header header-filter" :style="headerStyle">
+    </parallax>
     <div class="main main-raised">
       <div class="section">
         <div class="container">
@@ -7,23 +9,13 @@
             <div
               class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
             >
-              <h2 class="title text-center">Travel Information</h2>
-              <h5 class="description">
-                Coming soon.
-              </h5>
+              <h2 class="title text-center">
+                Travel Information (Coming Soon!)
+              </h2>
 
-              <h2 class="title text-center">Sponsors</h2>
-              <h5 class="description">
-                NCAR CMIP6 Hackathon is made possible by the following sponsors:
-                <br /><br />
-                <img
-                  :src="sponsorsImg"
-                  alt="Sponsors"
-                  height="500"
-                  width="700"
-                  class="img-raised rounded img-fluid"
-                />
-              </h5>
+              <div class="md-layout"></div>
+
+              <br />
             </div>
           </div>
         </div>
@@ -31,22 +23,16 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
-  bodyClass: "landing-page",
-    sponsorsImg: {
+  bodyClass: "profile-page",
+  props: {
+    header: {
       type: String,
-      default: require("@/assets/img/sponsors.png")
+      default: require("@/assets/img/banner.png")
     }
   },
-  data() {
-    return {
-      name: null,
-      email: null,
-      message: null
-    };
-  },
+
   computed: {
     headerStyle() {
       return {
@@ -62,11 +48,12 @@ export default {
   display: flex;
   justify-content: center !important;
 }
-.contact-form {
-  margin-top: 30px;
-}
 
 .md-has-textarea + .md-layout {
   margin-top: 15px;
+}
+
+.section {
+  padding: 0;
 }
 </style>
