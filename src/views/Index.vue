@@ -8,8 +8,8 @@
           >
             <h2 class="title">
               Dates: Oct. 16 - 18, 2019
-              <br />Venues: NCAR, Boulder, CO, USA & <br>
-                            LDEO, Palisades, NY, US
+              <br />Venues: NCAR, Boulder, CO & <br>
+                            LDEO, Palisades, NY
             </h2>
             <h3>Applications are now open!</h3>
             <md-button href class="md-success md-lg md-round" target="https://forms.gle/CzHh9iedY1wxv9ye8"
@@ -26,28 +26,16 @@
             <div
               class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
             >
-              <h2 class="title text-center">Motivation</h2>
-              <h5 class="description">
-                Lorem ipsum dolor sit amet consectetur, adipiscing elit
-                fermentum mus lacinia mattis, semper nunc tellus senectus.
-                Accumsan habitasse ligula per id nisl tempus molestie, montes
-                primis nunc ridiculus sem tellus cursus curabitur, vel sodales
-                donec laoreet luctus quam. Mauris nostra faucibus condimentum
-                venenatis fermentum at eros lacinia netus sem aptent facilisi
-                integer elementum, ornare congue vivamus vehicula montes cras
-                massa curae platea pretium malesuada nisi ut.
-              </h5>
-
               <h2 class="title text-center">Overview</h2>
               <h5 class="description">
-                Lorem ipsum dolor sit amet consectetur, adipiscing elit
-                fermentum mus lacinia mattis, semper nunc tellus senectus.
-                Accumsan habitasse ligula per id nisl tempus molestie, montes
-                primis nunc ridiculus sem tellus cursus curabitur, vel sodales
-                donec laoreet luctus quam. Mauris nostra faucibus condimentum
-                venenatis fermentum at eros lacinia netus sem aptent facilisi
-                integer elementum, ornare congue vivamus vehicula montes cras
-                massa curae platea pretium malesuada nisi ut.
+                Centers around the world are currently running their state-of-the-art Earth system models (ESMs) to participate in the 6th phase of the Coupled Model Intercomparison Project (CMIP6), which supports the United Nations Environmental Program’s International Panel on Climate Change 6th Assessment (AR6). This event will explore new paradigms for community-driven analysis and will consist of the primary components: (1) tutorials on cutting-edge analysis tools, (2) peer-learning opportunities, and (3) open-ended project work in a highly collaborative environment.
+
+                <br>
+                The Hackathon will be held concurrently at two locations: the <a href="https://goo.gl/maps/UMQ7fzxSGiKtrKEJ9">NCAR Mesa Lab</a>, in Boulder CO, and the <a href="https://goo.gl/maps/thqWXUsptr4zPCtZ6"><Lamont Doherty Earth Observatory</a>, in Palisades NY.
+                <br>
+
+                Limited funding is available to support travel and lodging, with preference given to early career scientists.
+
               </h5>
 
               <h2 class="title text-center">Sponsors</h2>
