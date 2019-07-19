@@ -36,7 +36,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/matt_c_long"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -82,7 +82,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/rabernat"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -174,7 +174,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/apuffycloud"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -220,7 +220,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/oceancarbon"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -266,7 +266,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/HammanHydro"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -312,7 +312,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/NCARKMPaul"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -404,7 +404,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/krasting"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -450,7 +450,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/andersy005"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -496,7 +496,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/IslaSimpson4"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -634,7 +634,7 @@
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
-                            href="javascript:void(0)"
+                            href="https://twitter.com/scottdoney1"
                             class="md-just-icon md-simple"
                           >
                             <i class="fab fa-twitter"></i>
@@ -719,7 +719,7 @@ export default {
 
     teamImg8: {
       type: String,
-      default: "https://github.com/identicons/jasonlong.png"
+      default: "https://avatars1.githubusercontent.com/u/46687291?s=400&v=4"
     },
     teamImg9: {
       type: String,

@@ -28,6 +28,11 @@
             </mobile-menu>
             <md-list>
               <md-list-item href="#/">
+                <i class="material-icons">home</i>
+                <p>Home</p>
+              </md-list-item>
+
+              <md-list-item href="#/">
                 <i class="material-icons">content_paste</i>
                 <p>Curriculum</p>
               </md-list-item>
