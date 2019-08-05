@@ -32,22 +32,17 @@
                 <p>Home</p>
               </md-list-item>
 
-              <md-list-item href="#/">
-                <i class="material-icons">content_paste</i>
-                <p>Curriculum</p>
-              </md-list-item>
-
               <md-list-item href="#/team">
                 <i class="material-icons">people</i>
                 <p>Instructors & co-organizers</p>
               </md-list-item>
 
-              <md-list-item href="#">
+              <md-list-item href="#/projects">
                 <i class="material-icons">work</i>
                 <p>Hackathon Projects</p>
               </md-list-item>
 
-              <md-list-item href="#">
+              <md-list-item href="#/schedule">
                 <i class="material-icons">schedule</i>
                 <p>Schedule & Materials</p>
               </md-list-item>

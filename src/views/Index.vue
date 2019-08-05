@@ -12,12 +12,12 @@
               NCAR, Boulder, CO <br />
               LDEO, Palisades, NY
             </h2>
-            <h3>Registration closes July 31, 2019!</h3>
+            <h3>Application closed!</h3>
             <md-button
               href="https://forms.gle/CzHh9iedY1wxv9ye8"
               class="md-success md-lg md-round"
               target="_blank"
-              ><md-icon>how_to_reg</md-icon>Register Here</md-button
+              ><md-icon>how_to_reg</md-icon>Apply Here</md-button
             >
           </div>
         </div>
