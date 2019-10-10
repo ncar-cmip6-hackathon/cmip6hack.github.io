@@ -13,10 +13,10 @@
               <h4 class="description">
               For participants traveling from the airport to the hotel in Boulder, we
               recommend <a href="https://greenrideboulder.com/">Green
-              Ride Boulder</a> or you can use Uber or Lyft. In Palisades, we are
-              forming car pools from the airport to the hotel, details will be confirmed later
-              this week. During the Hackathon at NCAR, there will be a shuttle service between
-              the hotel and venue each day, and at LDEO we will use car pools.
+              Ride Boulder</a> or you can use Uber or Lyft. In New
+              York you can use an Uber, Lyft or taxi. During the Hackathon at NCAR, there will
+              be a shuttle service between the hotel and venue each day via GreenRide
+              Boulder, and at LDEO we will use car pools.
               </h4>
               </h2>
 
@@ -29,9 +29,9 @@
               will be on your own for dinners (<a
               href="https://www.tripadvisor.com/RestaurantsNear-g48359-d250870-HNA_Palisades_Premier_Conference_Center-Palisades_New_York.html">Palisades restaurant list</a>,
               <a
-              href="https://www.tripadvisor.com/RestaurantsNear-g33324-d284557-National_Center_for_Atmospheric_Research_NCAR-Boulder_Colorado.html">Boulder restaurant list</a>). The first evening of the hackathon (Wed., October
-              16), there will be a welcome reception with refreshments at LDEO and
-              NCAR.
+              href="https://www.tripadvisor.com/RestaurantsNear-g33324-d284557-National_Center_for_Atmospheric_Research_NCAR-Boulder_Colorado.html">Boulder restaurant list</a>).
+              The first evening of the hackathon (Wed., October 16), there will
+              be a welcome reception with refreshments at LDEO and NCAR.
               <br><br>
               Please consult the <a href="#/schedule">agenda</a> for all meal/shuttle times.
               </h4>
