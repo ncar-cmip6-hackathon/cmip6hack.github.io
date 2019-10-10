@@ -34,10 +34,13 @@
 
               <h5 class="title">University of Washington</h5>
               <p>
-              Location details coming...
+              Plenary presentation and daily cross-site check ins will be in JHN 021
+              (Wednesday), ATG 610 (Thursday), and MSB 123 (Friday). These rooms are also open
+              all day for hacking, though project teams are welcome to find other locations to
+              work. Science talks will be held in ATG 310.
               </p>
 
-              <h4 class="title"></h4>
+              <h3 class="title">Daily agenda</h3>
               <img
                 :src="wedImg"
                 alt="wednesday"
