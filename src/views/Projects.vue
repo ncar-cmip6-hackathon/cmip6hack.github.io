@@ -9,9 +9,8 @@
             <div
               class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
             >
-              <h2 class="title text-center">
-                Projects Details (Coming Soon!)
-              </h2>
+              <h2 class="title text-center">Projects</h2>
+              <a href="https://discourse.pangeo.io/c/cmip6hack/cmip6hack-projects">Project discussion on discourse.pangeo.io</a>
 
               <div class="md-layout"></div>
 
