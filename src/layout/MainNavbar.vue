@@ -44,7 +44,7 @@
 
               <md-list-item href="#/schedule">
                 <i class="material-icons">schedule</i>
-                <p>Schedule & Materials</p>
+                <p>Agenda</p>
               </md-list-item>
 
               <li class="md-list-item">

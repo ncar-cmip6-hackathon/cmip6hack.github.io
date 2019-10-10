@@ -7,15 +7,52 @@
         <div class="container">
           <div class="md-layout">
             <div
-              class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
+              class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto"
             >
-              <h2 class="title text-center">
-                Schedule & Materials (Coming Soon!)
+              <h2 class="title">
+                CMIP6 Hackathon Agenda
               </h2>
+              16-18 October 2019
 
-              <div class="md-layout"></div>
+              <h4 class="title">Locations</h4>
+              <h5 class="title">Lamont</h5>
+              <p>
+              Location details coming...
+              </p>
 
-              <br />
+              <h5 class="title">NCAR Mesa Lab</h5>
+              <p>
+              Plenary presentation and daily cross-site check-ins will be in the
+              Main Seminar Room. Project teams can work in the Damon Room,
+              the Chapman Room, or the VizLab. It's also possible to use the
+              library or cafeteria.
+              </p>
+
+              <h5 class="title">University of Washington</h5>
+              <p>
+              Location details coming...
+              </p>
+
+              <h4 class="title"></h4>
+              <img
+                :src="wedImg"
+                alt="wednesday"
+                width="800"
+                />
+
+              <h4 class="title"></h4>
+              <img
+                :src="thuImg"
+                alt="thursday"
+                width="800"
+                />
+
+              <h4 class="title"></h4>
+              <img
+                :src="friImg"
+                alt="friday"
+                width="800"
+                />
             </div>
           </div>
         </div>
@@ -30,6 +67,18 @@ export default {
     header: {
       type: String,
       default: require("@/assets/img/banner.png")
+    },
+  wedImg: {
+    type: String,
+    default: require("@/assets/img/schedule-wed.png")
+    },
+  thuImg: {
+    type: String,
+    default: require("@/assets/img/schedule-thu.png")
+    },
+  friImg: {
+    type: String,
+    default: require("@/assets/img/schedule-fri.png")
     }
   },
 
