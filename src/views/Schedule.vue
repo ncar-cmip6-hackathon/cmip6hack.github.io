@@ -14,7 +14,7 @@
               </h2>
               16-18 October 2019
 
-              <h4 class="title">Locations</h4>
+              <h3 class="title">Locations</h3>
               <h5 class="title">Lamont</h5>
               <p>
               We will meet in the Comer Geochemistry Building.
