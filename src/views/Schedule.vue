@@ -17,7 +17,11 @@
               <h4 class="title">Locations</h4>
               <h5 class="title">Lamont</h5>
               <p>
-              Location details coming...
+              We will meet in the Comer Geochemistry Building.
+              On Wednesday, we will meet in the Comer First Floor Seminar room,
+              for Thursday and Friday, we will use the Kennedy Room on the 3rd floor of Comer.
+              The Comer 1st floor Cafe area will also be available for working.
+              A map of the LDEO campus can be found here <a href="https://www.ldeo.columbia.edu/about-ldeo/maps-contacts">here</a>.
               </p>
 
               <h5 class="title">NCAR Mesa Lab</h5>
