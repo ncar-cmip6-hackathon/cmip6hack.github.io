@@ -62,7 +62,7 @@
                   <li>
                     <a href="https://goo.gl/maps/Jvh2jxz9kVW1UJD49"
                       >The University of Washington</a
-                    >, in Seatlle WA.
+                    >, in Seattle WA.
                   </li>
                 </ul>
               </h4>
