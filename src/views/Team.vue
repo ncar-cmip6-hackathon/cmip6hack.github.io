@@ -1,7 +1,9 @@
 <template>
   <div class="wrapper">
-    <parallax class="section page-header header-filter" :style="headerStyle">
-    </parallax>
+    <parallax
+      class="section page-header header-filter"
+      :style="headerStyle"
+    ></parallax>
     <div class="main main-raised">
       <div class="section">
         <div class="container">
@@ -30,9 +32,9 @@
                         <h4 class="card-title">
                           Matthew Long
                           <br />
-                          <small class="card-description text-muted">
-                            Scientist/Oceanographer @ NCAR-CGD
-                          </small>
+                          <small class="card-description text-muted"
+                            >Scientist/Oceanographer @ NCAR-CGD</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -76,9 +78,10 @@
                         <h4 class="card-title">
                           Ryan Abernathey
                           <br />
-                          <small class="card-description text-muted">
-                            Associate Professor @ Columbia University-LDEO
-                          </small>
+                          <small class="card-description text-muted"
+                            >Associate Professor @ Columbia
+                            University-LDEO</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -122,9 +125,9 @@
                         <h4 class="card-title">
                           John Dunne
                           <br />
-                          <small class="card-description text-muted">
-                            Research Oceanographer @ NOAA-GFDL
-                          </small>
+                          <small class="card-description text-muted"
+                            >Research Oceanographer @ NOAA-GFDL</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -168,9 +171,9 @@
                         <h4 class="card-title">
                           Angeline Pendergrass
                           <br />
-                          <small class="card-description text-muted">
-                            Project Scientist @ NCAR-CGD
-                          </small>
+                          <small class="card-description text-muted"
+                            >Project Scientist @ NCAR-CGD</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -214,9 +217,9 @@
                         <h4 class="card-title">
                           Galen McKinley
                           <br />
-                          <small class="card-description text-muted">
-                            Professor @ Columbia University-LDEO
-                          </small>
+                          <small class="card-description text-muted"
+                            >Professor @ Columbia University-LDEO</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -260,9 +263,9 @@
                         <h4 class="card-title">
                           Joseph Hamman
                           <br />
-                          <small class="card-description text-muted">
-                            Project Scientist @ NCAR-CGD
-                          </small>
+                          <small class="card-description text-muted"
+                            >Project Scientist @ NCAR-CGD</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -306,9 +309,9 @@
                         <h4 class="card-title">
                           Kevin Paul
                           <br />
-                          <small class="card-description text-muted">
-                            Project Scientist @ NCAR-CISL
-                          </small>
+                          <small class="card-description text-muted"
+                            >Project Scientist @ NCAR-CISL</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -352,9 +355,9 @@
                         <h4 class="card-title">
                           Julia Kent
                           <br />
-                          <small class="card-description text-muted">
-                            Software Engineer @ NCAR-CISL
-                          </small>
+                          <small class="card-description text-muted"
+                            >Software Engineer @ NCAR-CISL</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -398,9 +401,9 @@
                         <h4 class="card-title">
                           John Krasting
                           <br />
-                          <small class="card-description text-muted">
-                            Physical Scientist @ NOAA-GFDL
-                          </small>
+                          <small class="card-description text-muted"
+                            >Physical Scientist @ NOAA-GFDL</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -444,9 +447,9 @@
                         <h4 class="card-title">
                           Anderson Banihirwe
                           <br />
-                          <small class="card-description text-muted">
-                            Software Engineer @ NCAR-CISL
-                          </small>
+                          <small class="card-description text-muted"
+                            >Software Engineer @ NCAR-CISL</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -490,9 +493,9 @@
                         <h4 class="card-title">
                           Isla Simpson
                           <br />
-                          <small class="card-description text-muted">
-                            Scientist @ NCAR-CGD
-                          </small>
+                          <small class="card-description text-muted"
+                            >Scientist @ NCAR-CGD</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -536,9 +539,10 @@
                         <h4 class="card-title">
                           Anastasia Romanou
                           <br />
-                          <small class="card-description text-muted">
-                            Research Scientist @ Columbia University & NASA GISS
-                          </small>
+                          <small class="card-description text-muted"
+                            >Research Scientist @ Columbia University & NASA
+                            GISS</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -582,9 +586,9 @@
                         <h4 class="card-title">
                           Flavio Lehner
                           <br />
-                          <small class="card-description text-muted">
-                            Project Scientist @ NCAR-CGD
-                          </small>
+                          <small class="card-description text-muted"
+                            >Project Scientist @ NCAR-CGD</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -628,9 +632,9 @@
                         <h4 class="card-title">
                           Scott Doney
                           <br />
-                          <small class="card-description text-muted">
-                            Professor @ University of Virginia
-                          </small>
+                          <small class="card-description text-muted"
+                            >Professor @ University of Virginia</small
+                          >
                         </h4>
                         <md-card-actions class="text-center">
                           <md-button
@@ -657,6 +661,90 @@
                   </div>
 
                   <!-- End Team Player 14--->
+
+                  <!-- Team Player 15--->
+                  <div
+                    class="md-layout-item md-medium-size-33 md-small-size-100"
+                  >
+                    <div class="team-player">
+                      <md-card class="md-card-plain">
+                        <div class="md-layout-item md-size-50 mx-auto">
+                          <img
+                            :src="teamImg15"
+                            alt="Avatar"
+                            class="img-raised rounded-circle img-fluid"
+                          />
+                        </div>
+                        <h4 class="card-title">
+                          Naomi Henderson
+                          <br />
+                          <small class="card-description text-muted"
+                            >Research Scientist @ Columbia
+                            University-LDEO</small
+                          >
+                        </h4>
+                        <md-card-actions class="text-center">
+                          <md-button href class="md-just-icon md-simple">
+                            <i class="fab fa-twitter"></i>
+                          </md-button>
+                          <md-button
+                            href="https://github.com/naomi-henderson"
+                            class="md-just-icon md-simple"
+                          >
+                            <i class="fab fa-github"></i>
+                          </md-button>
+                          <md-button href class="md-just-icon md-simple">
+                            <i class="fas fa-globe"></i>
+                          </md-button>
+                        </md-card-actions>
+                      </md-card>
+                    </div>
+                  </div>
+
+                  <!-- End Team Player 15--->
+                  <!-- Team Player 16--->
+                  <div
+                    class="md-layout-item md-medium-size-33 md-small-size-100"
+                  >
+                    <div class="team-player">
+                      <md-card class="md-card-plain">
+                        <div class="md-layout-item md-size-50 mx-auto">
+                          <img
+                            :src="teamImg16"
+                            alt="Avatar"
+                            class="img-raised rounded-circle img-fluid"
+                          />
+                        </div>
+                        <h4 class="card-title">
+                          Charles Blackmon-Luca
+                          <br />
+                          <small class="card-description text-muted"
+                            >Programmer Analyst @ Columbia
+                            University-LDEO</small
+                          >
+                        </h4>
+                        <md-card-actions class="text-center">
+                          <md-button href class="md-just-icon md-simple">
+                            <i class="fab fa-twitter"></i>
+                          </md-button>
+                          <md-button
+                            href="https://github.com/charlesbluca"
+                            class="md-just-icon md-simple"
+                          >
+                            <i class="fab fa-github"></i>
+                          </md-button>
+                          <md-button
+                            href="https://www.ldeo.columbia.edu/user/blackmon"
+                            class="md-just-icon md-simple"
+                          >
+                            <i class="fas fa-globe"></i>
+                          </md-button>
+                        </md-card-actions>
+                      </md-card>
+                    </div>
+                  </div>
+
+                  <!-- End Team Player 16--->
                 </div>
               </div>
 
@@ -747,6 +835,14 @@ export default {
       type: String,
       default:
         "https://doney.evsc.virginia.edu/wp-content/uploads/2017/08/SD-273x300.jpg"
+    },
+    teamImg15: {
+      type: String,
+      default: "https://avatars0.githubusercontent.com/u/31460695?s=400&v=4"
+    },
+    teamImg16: {
+      type: String,
+      default: "https://avatars2.githubusercontent.com/u/20627856?s=400&v=4"
     }
   },
 

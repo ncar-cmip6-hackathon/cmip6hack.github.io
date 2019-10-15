@@ -13,7 +13,6 @@
               LDEO, Palisades, NY <br />
               University of Washington
             </h2>
-
           </div>
         </div>
       </div>
@@ -48,7 +47,7 @@
               </h4>
               <h2 class="title text-center">Locations</h2>
               <h4 class="description">
-                The Hackathon will be held concurrently at two locations:
+                The Hackathon will be held concurrently at three locations:
                 <ul>
                   <li>
                     <a href="https://goo.gl/maps/UMQ7fzxSGiKtrKEJ9"
@@ -59,6 +58,11 @@
                     <a href="https://goo.gl/maps/thqWXUsptr4zPCtZ6"
                       >The Lamont Doherty Earth Observatory</a
                     >, in Palisades NY.
+                  </li>
+                  <li>
+                    <a href="https://goo.gl/maps/Jvh2jxz9kVW1UJD49"
+                      >The University of Washington</a
+                    >, in Seatlle WA.
                   </li>
                 </ul>
               </h4>
