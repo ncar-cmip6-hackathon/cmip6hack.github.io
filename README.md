@@ -1,15 +1,14 @@
-[![CircleCI](https://img.shields.io/circleci/project/github/cmip6hack/cmip6hack.github.io/source.svg?style=for-the-badge&logo=circleci)](https://circleci.com/gh/cmip6hack/cmip6hack.github.io)
-
+[![Build Vue](https://github.com/cmip6hack/cmip6hack.github.io/actions/workflows/build.yaml/badge.svg)](https://github.com/cmip6hack/cmip6hack.github.io/actions/workflows/build.yaml)
 # CMIP6 Hackathon Main Website
 
 Website: [cmip6hack/cmip6hack.github.io](https://cmip6hack.github.io)
 
 
-# To build and test locally
+## To build and test locally
 
 Create a conda environment
 ```bash
-conda create -n web-dev -c conda-forge nodejs
+conda create -n web-dev -c conda-forge nodejs=12 python=2.7
 conda activate web-dev
 ```
 
