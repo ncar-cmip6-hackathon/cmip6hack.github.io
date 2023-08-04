@@ -1,4 +1,4 @@
-[![Build Vue](https://github.com/cmip6hack/cmip6hack.github.io/actions/workflows/build.yaml/badge.svg)](https://github.com/cmip6hack/cmip6hack.github.io/actions/workflows/build.yaml)
+[![Deploy](https://github.com/cmip6hack/cmip6hack.github.io/actions/workflows/deploy.yaml/badge.svg)](https://github.com/cmip6hack/cmip6hack.github.io/actions/workflows/deploy.yaml)
 # CMIP6 Hackathon Main Website
 
 Website: [cmip6hack/cmip6hack.github.io](https://cmip6hack.github.io)
