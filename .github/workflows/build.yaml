@@ -19,9 +19,14 @@ jobs:
             bash
           cache-environment: true
           post-cleanup: 'all'
-    - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@1.0.1
-      with:
-        username: 'cmip6hack'
-        reponame: 'cmip6hack.github.io'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+    - name: Build-Vue 
+      run: |
+        npm run build 
+        cd dist 
+        ln -s index.html 404.html
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git init
+        git add -A 
+        git commit -m "Deploy to GitHub Pages"
+        git push -f main:gh-pages
