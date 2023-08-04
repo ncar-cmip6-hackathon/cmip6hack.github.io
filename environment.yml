@@ -1,0 +1,7 @@
+name: cmip6-hack
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=2.7
+  - nodejs=12

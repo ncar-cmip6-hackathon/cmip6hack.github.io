@@ -3,12 +3,22 @@ on: [push]
 jobs:
   build_vue:
     runs-on: ubuntu-latest
-    container:
-        image: python:2.7.18-buster # https://github.com/actions/setup-python/issues/672
+    defaults:
+      run:
+        shell: bash -l {0}
 
     name: Build Vue
+    
     steps:
     - uses: actions/checkout@v2
+    - name: set up conda environment
+      uses: mamba-org/setup-micromamba@v1
+      with:
+          environment-file: environment.yml
+          init-shell: >-
+            bash
+          cache-environment: true
+          post-cleanup: 'all'
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
