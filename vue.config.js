@@ -7,5 +7,5 @@ module.exports = {
     }
   },
 
-  publicPath: 'cmip6hack.github.io'
+  publicPath: "cmip6hack.github.io"
 };
